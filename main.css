@@ -1,0 +1,30 @@
+* {
+  margin: 0; 
+  padding: 0; 
+}
+
+#clock {
+  text-align: center;
+}
+
+div, h1 {
+  text-align: center;
+  font-size: 60px;
+  font-style: bold;
+  color: white;
+}
+
+html, body {
+  height: 100%;
+  margin-top: 20px;
+font-family: 'JetBrains Mono', monospace;
+}
+
+#clock {
+  text-align: center;
+  position: relative;
+  top: 30%;
+}
+
+
+
