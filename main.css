@@ -3,14 +3,9 @@
   padding: 0; 
 }
 
-#clock {
-  text-align: center;
-}
-
-div, h1 {
-  text-align: center;
+div{
   font-size: 80px;
-  font-style: bold;
+  font-style: clockbold;
   color: blanchedalmond;
 }
 
