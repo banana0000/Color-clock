@@ -16,14 +16,14 @@ function colorClock(){
   }
 
   var clockFace = hours + ':' + minutes + ':' + seconds;
-  var hexaColor = 'rgb' + hours + minutes + seconds;
+  var hexaColor = 'rgba' + hours + minutes + seconds;
 
   document.getElementById('clock').innerHTML = clockFace;
   document.body.style.background = hexaColor;
 
   setTimeout(function() {
     colorClock();
-  }, 5000);
+  }, 1000);
 }
 
 colorClock();
