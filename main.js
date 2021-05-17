@@ -19,10 +19,10 @@ function colorClock(){
   var hue = 50;
 
   var clockFace = hours + ':' + minutes + ':' + seconds;
-  var hslColor = 'hsl' + hours + minutes + seconds;
+  var hexaColor = '#' + hours + minutes + seconds;
 
   document.getElementById('clock').innerHTML = clockFace;
-  document.body.style.background = hslColor;
+  document.body.style.background = hexaColor;
 
   setTimeout(function() {
     colorClock();
