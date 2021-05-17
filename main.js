@@ -22,7 +22,7 @@ function colorClock(){
   var hslColor = sat + br + hue + hours + minutes + seconds;
 
   document.getElementById('clock').innerHTML = clockFace;
-  document.body.style.background = hexaColor;
+  document.body.style.background = hslColor;
 
   setTimeout(function() {
     colorClock();
