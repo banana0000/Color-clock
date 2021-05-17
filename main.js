@@ -26,7 +26,7 @@ function colorClock(){
 
   setTimeout(function() {
     colorClock();
-  }, 1000);
+  }, 500);
 }
 
 colorClock();
