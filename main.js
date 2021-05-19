@@ -14,12 +14,9 @@ function colorClock(){
   if (seconds <= 9) {
     seconds = "0" + seconds;
   }
-  var sat = 360;
-  var br = 50;
-  var hue = 50;
-
+ 
   var clockFace = hours + ':' + minutes + ':' + seconds;
-  var hexaColor = 'hsl' + hours + minutes + seconds;
+  var hexaColor = '#' + hours + minutes + seconds;
 
   document.getElementById('clock').innerHTML = clockFace;
   document.body.style.background = hexaColor;
